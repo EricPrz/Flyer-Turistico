@@ -11,4 +11,4 @@ app.get('/:url', function (req, res) {
     res.sendFile(url + "/images/" + dir)
 })
 
-app.listen(3000, '192.168.1.36')
+app.listen(3000)
